@@ -1,0 +1,7 @@
+[14-Mar-2013 17:02:50] PHP Warning:  include(../../cms/javascript/javascript.js) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/javascript/javascriptMerger.php on line 13
+[14-Mar-2013 17:02:50] PHP Warning:  include(../../cms/javascript/javascript.js) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/javascript/javascriptMerger.php on line 13
+[14-Mar-2013 17:02:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../cms/javascript/javascript.js' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/dahlgren.tv/johan/site/javascript/javascriptMerger.php on line 13
+[18-Mar-2013 13:18:44] PHP Parse error:  syntax error, unexpected ';' in /home/dahlgren/public_html/dahlgren.tv/johan/site/javascript/javascriptMerger.php on line 3
+[18-Mar-2013 13:18:44] PHP Parse error:  syntax error, unexpected ';' in /home/dahlgren/public_html/dahlgren.tv/johan/site/javascript/javascriptMerger.php on line 3
+[18-Mar-2013 13:18:57] PHP Parse error:  syntax error, unexpected ';' in /home/dahlgren/public_html/dahlgren.tv/johan/site/javascript/javascriptMerger.php on line 3
+[18-Mar-2013 13:19:04] PHP Parse error:  syntax error, unexpected ';' in /home/dahlgren/public_html/dahlgren.tv/johan/site/javascript/javascriptMerger.php on line 3

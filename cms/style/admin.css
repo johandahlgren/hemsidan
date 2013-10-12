@@ -1,0 +1,140 @@
+* {font-family: arial;}
+
+fieldset {border: none; padding: 0px; margin: 0px;}
+input, textarea {outline: none;}
+input.formField:focus, textarea.formField:focus, input.formField:hover, textarea.formField:hover {box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.85);}
+textarea.formTextArea {height: 200px;}
+form {margin: 0px;}
+
+#loginDiv {width: 250px; padding: 10px; background-color: rgb(220, 220, 220); border: 2px solid rgb(200, 200, 200); border-radius: 10px; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); margin: 20px auto;}
+#loginDiv .formField {width: 250px; text-align: center;}
+#adminMenu {position: fixed; top: 10px; right: 0px; width: 110px; z-index: 20000;}
+#adminSpacer {height: 0px;}
+#newContentDiv {background-color: rgb(200, 200, 200); border-bottom: 1px solid rgb(150, 150, 150); box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75); -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75); -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75); padding: 5px 20px; width: 100px; position: absolute; display: none; z-index: 20000;}
+#newContentDiv a.adminButton {padding: 5px; float: left;}
+#adminDiv {display: none; position: absolute; top: 100px; left: 200px;}
+
+#messageDiv {position: absolute; top: 100px; left: 200px; display: none; width: 250px; height: 150px; border: 1px solid rgb(150, 150, 150); border-radius: 10px; background-color: rgb(200, 200, 200); box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); padding: 10px; }
+#resultDivContainer {position: absolute; 3px 10px 3px 0px; display: block; width: 16px; height: 16px; border-radius: 10px; box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.75); -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.75); -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.75); background-position: rgb(170, 170, 170);}
+#resultDiv {display: none; width: 14px; height: 14px; border: 1px solid rgb(100, 100, 100); border-radius: 10px; box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.95); background-position: rgb(170, 170, 170);}
+#loadingLayer {display: none; position: absolute; width: 120px; height: 24px; border-radius: 3px; background-color: rgb(150, 150, 150); background-image: url("images/loadingAnimation.gif"); background-repeat: no-repeat; background-position: center center;}
+
+
+.loginSiteLink {margin: 70px auto; display: table; font-size: 42px; text-decoration: none; color: white; text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75); font-weight: bold;}
+
+.editForm {z-index: 20000; box-shadow: none; position: relative; background-color: rgb(150, 150, 150); border-radius: 10px; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);}
+.formContainer {border-radius: 10px; backgrund-color: rgb(100, 100, 100); padding: 5px;
+	background: rgb(220,220,220); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(220,220,220,1) 0%, rgba(240,240,240,1) 50%, rgba(220,220,220,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(220,220,220,1)), color-stop(50%,rgba(240,240,240,1)), color-stop(100%,rgba(220,220,220,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(220,220,220,1) 0%,rgba(240,240,240,1) 50%,rgba(220,220,220,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(220,220,220,1) 0%,rgba(240,240,240,1) 50%,rgba(220,220,220,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(220,220,220,1) 0%,rgba(240,240,240,1) 50%,rgba(220,220,220,1) 100%); /* IE10+ */
+	background: linear-gradient(-45deg,  rgba(220,220,220,1) 0%,rgba(240,240,240,1) 50%,rgba(220,220,220,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdcdc', endColorstr='#dcdcdc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.formHeader, .formButtons {border: 1px solid rgb(100, 100, 100); border-radius: 10px; padding: 2px 10px;
+	background: rgb(69,72,77); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.formHeader {height: 32px; line-height: 32px;}
+.formHeaderText {float: left; color: white;}
+.formInnerContainer {padding: 0px 10px 10px 10px;}
+.formLabel {margin: 10px 0px 0px 0px; text-shadow: none; font-weight: normal;}
+.formField {font-size: 16px; background-color: white; border: 1px solid rgb(100, 100, 100); border-radius: 5px; padding: 5px; width: 500px;}
+.smallField {width: 200px;}
+.formButtons {clear: both; padding: 10px 0px; border-radius: 10px;}
+.closeButton {float: right; rgb(150, 0, 0); display: block; width: 34px; height: 30px; line-height: 30px; text-align: center; cursor: pointer; border-radius: 10px; margin-right: -7px;
+	text-shadow: 1px 1px 0px rgb(180, 150, 150);
+	background: #f85032; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f85032), color-stop(50%,#f16f5c), color-stop(51%,#f6290c), color-stop(71%,#f02f17), color-stop(100%,#e73827)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* IE10+ */
+	background: linear-gradient(top,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=0 ); /* IE6-9 */
+	box-shadow: inset 1px 1px 2px rgb(220, 200, 200), inset -1px -1px rgb(150, 100, 100); -moz-box-shadow: inset 1px 1px 2px rgb(220, 200, 200), inset -1px -1px rgb(150, 100, 100); -webkit-box-shadow: inset 1px 1px 2px rgb(220, 200, 200), inset -1px -1px rgb(150, 100, 100);
+}
+div.adminButton, div.adminMenuButton {
+	background: rgb(157,213,58); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(157,213,58,1)), color-stop(50%,rgba(161,213,79,1)), color-stop(51%,rgba(128,194,23,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px outset rgb(120, 170, 120);
+	display: block;
+	margin-top: 10px;
+	color:#306108;
+	font-family:arial;
+	font-size:12px !important;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #aade7c;
+	text-align: center;
+	line-height: 12px !important;
+	box-shadow: inset 1px 1px 3px 1px rgb(190, 242, 144), inset -1px -1px 3px 1px rgb(80, 130, 20);
+	-moz-box-shadow: inset 1px 1px 3px 1px rgb(190, 242, 144), inset -1px -1px 3px 1px rgb(80, 130, 20);
+	-webkit-box-shadow: inset 1px 1px 3px 1px rgb(190, 242, 144), inset -1px -1px 3px 1px rgb(80, 130, 20);
+}
+div.adminButton:hover, div.adminMenuButton:hover 
+{
+	cursor: pointer;
+}
+div.adminButton:active, div.adminMenuButton:active, .closeButton:active
+{
+	box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.75);
+}
+.addCategoryDiv .adminButton {margin: 0 20px;}
+div.adminButton {padding: 10px 10px; width: 100px;}
+div.adminMenuButton {margin: 10px 5px; height: 30px; padding: 10px 5px; width: 80px;} 
+
+div.openAdminButton {position: absolute; margin-left: 470px;}
+.entityAdminButtons {position: absolute; margin: 0 0 0 620px; border-radius: 10px; border: 1px outset rgb(70, 120, 70); padding: 5px 10px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	background: rgb(157,213,58); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(157,213,58,1)), color-stop(50%,rgba(161,213,79,1)), color-stop(51%,rgba(128,194,23,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+}
+.submitButton {width: 120px;}
+.newButtonContainer .buttonNew { width: 200px; margin-top: 20px;} 
+div.loginButton {margin: 10px auto 0px auto; float: none; width: 150px;}
+.smallButton {margin: 0px 10px !important; padding: 0px 20px !important;}
+
+.left {float: left;}
+.right {float: right;}
+.center {display: table; margin-left: auto !important; margin-right: auto !important;}
+.clear {clear: both;}
+
+@media screen and (max-width: 900px) 
+{
+	#adminMenu {top: auto; bottom: 10px; width: 100%;}
+	.adminButton {padding: 10px 0px !important;}
+	.formField {width: 280px;}
+	.smallField {width: 150px;}
+} 
+
+//--------- NICEDIT -------------
+
+.nicEdit-selected {outline: none !important;}
+.apa {padding: 5px; border: 1px solid rgb(100, 100, 100);}
+.nicEdit-main {background-color: white !important;}
+.nicEdit-button {background-color: rgb(200, 200, 200) !important; border-radius: 2px; float: left;}

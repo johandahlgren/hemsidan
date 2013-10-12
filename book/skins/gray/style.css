@@ -1,0 +1,54 @@
+* {font-family: arial; font-size: 14px;}
+body {background-color: rgb(50, 50, 50);}
+a {tcolor: rgb(220, 220, 220);}
+table.listtable th {background-color: rgb(200, 200, 200);}
+table.listtable tr {border-bottom: 1px solid rgb(100, 100, 100);}
+input[type="text"], input[type="password"], textarea, select {border: 1px solid rgb(50, 50, 50); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; background-color: rgb(220, 220, 220);}
+#head {position: fixed; z-index: 5000; top: 0px; left: 20px;}
+#top {background-color: rgb(130, 130, 130); border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);}
+#mainMenu {background-color: rgb(150, 150, 150); -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);}
+#tabsContainer {position: fixed; top: 31px; left: 20px; }
+#tabsContainer a.tab {color: rgb(200, 200, 200);} 
+#tabsContainer a.tab:hover {} 
+#tabsContainer a.selected  {background-color: rgb(150, 150, 150); color: rgb(250, 250, 250); -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); border-bottom-right-radius: 4px; -moz-border-radius-bottomrigh: 4px; webkit-border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; webkit-border-bottom-left-radius: 4px;}
+#tabsContainer a.selected:hover {}
+#mainDiv {position: absolute; z-index: 1500; top: 74px; left: 10px;}
+#leftMenu {}
+#leftMenu .contentcontainer {margin-top: 32px;}
+#maincontent {border: 1px solid rgb(20, 20, 20); background-color: rgb(80, 80, 80); abackground-image: url("images/shine.png"); background-repeat: repeat-x; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+#rightcontent {}
+#maincontent .contentcontainer {margin-top: 32px; padding: 10px;}
+#locationMap {border: 1px solid rgb(120, 185, 80);}
+#timelineDiv {background-color: rgb(220, 220, 220); border: 1px solid rgb(180, 180, 180); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+#infoDiv {color: white; background-color: rgb(120, 185, 80); border: 1px solid rgb(40, 145, 0); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+#infoDivError {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+#messageDiv {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+#statusMarker {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+#writingStudio .backgroundplate {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+a.button { border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+a.overviewbutton {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+.mainbuttons {border-top: none;} 
+.contentblocktitle {border-bottom: none; color: rgb(200, 200, 200);}
+.contentcontainer {background-color: rgb(140, 140, 140)}
+.page {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -webkit-box-shadow: 5px 5px 20px rgba(50, 50, 50, 0.5);}
+.printpreviewsynopsis {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -webkit-box-shadow: 5px 5px 20px rgba(50, 50, 50, 0.5);}
+.checklistcheckbox {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.overviewitem {}
+.dropshadow {-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+.overviewitem img {border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);}
+.bigbutton {border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+.portrait {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.list {background-color: rgb(80, 80, 80); border: 1px solid rgb(20, 20, 20); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.connectdiv {background-color: rgb(80, 80, 80); border: 1px solid rgb(20, 20, 20);} 
+.status1 {background-color: red;}
+.status2 {background-color: orange;}
+.status3 {background-color: yellow;}
+.status4 {background-color: green;}
+.category {background-color: rgb(100, 100, 100); color: rgb(200, 200, 200); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.currentselection {background-color: rgb(120, 185, 80); border-color: rgb(40, 145, 0);}
+.currentselection a {color: rgb(50, 50, 50);}
+.print {-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); -moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7)}
+.unknownperson {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; text-shadow: rgba(50, 50, 50, 0.6) 2px 2px 5px; -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);}
+.noimage {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+a.mainmenubutton {margin-top: 6px;}
+.extramenubuttons {float: left; margin-left: 100px;}

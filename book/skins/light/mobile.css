@@ -1,0 +1,74 @@
+* {font-family: arial; font-size: 18px; line-height: 28px;}
+body {background-color: rgb(255, 255, 255); padding: 60px 0px 50px 0px;}
+a {color: rgb(0, 150, 0); text-decoration: none;}
+p {margin-bottom: 12px;}
+p:first-child {text-indent: 0px;}
+p:first-child:first-letter {font-size: 56px; font-weight: bold; line-height: 56px; float: left; margin-right: 4px; color: rgb(60, 60, 60); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+table.listtable th {background-color: rgb(200, 200, 200);}
+table.listtable tr {border: none;}
+table.listtable td {padding: 4px 0px;} 
+table.listtable a.blocklink {height: 34px; color: rgb(50, 50, 50); font-size: 24px; line-height: 34px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); background: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 250, 250)), to(rgb(220, 220, 220))); border: 1px solid rgb(200, 200, 200); padding: 8px; margin: 0px 2px 2px 0px; display: block; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+table.listtable tr.listcategory a.blocklink {height: 34px; color: rgb(240, 240, 240); font-size: 24px; line-height: 34px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); background: -webkit-gradient(linear, left top, left bottom, from(rgb(150, 150, 150)), to(rgb(120, 120, 120))); border: 1px solid rgb(100, 100, 100); padding: 8px; margin: 0px 2px 2px 0px; display: block; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+table.listtable a.blocklink:hover {border-color: rgb(0, 255, 0);}
+table.listtable a.blocklink:active {margin: 2px 0px 0px 2px; -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);}
+input[type="text"], input[type="password"], textarea, select {margin 0px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border: 1px solid rgb(150, 150, 150); background-color: rgb(255, 255, 255); background-image: url("../images/textFieldBackground.png"); background-position: -2px -3px;}
+#container {width: 100%; margin: 0px; padding: 0px;}
+#head {float: left; display: block; width: 1000px; height: 45px; clear: both; margin-bottom: 15px;}
+#top {float: left;  display: block; width: 1000px; -webkit-box-shadow: none; -moz-box-shadow:none;}
+#mainMenu {float: left; display: block; width: 1000px; background: none; }
+#leftMenu {width: 100%;}
+#maincontent {width: 100%; background: none; border: none;}
+#maincontent h1 {color: black; font-size: 32px; border: none;}
+#mobileContainer {padding: 10px; }
+#messageDiv {position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; background-color: rgba(0, 0, 0, 0.7);}
+#statusMarker {position: fixed; left: -500px; top: -500px; width: 100px; height: 32px;}
+#ajaxLoadingAnimation {margin: 0px; display: block; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background-image: url("../images/loadingAnimation.gif"); background-repeat: no-repeat; background-position: 50% 50%;}
+.header {position: fixed; top: 0px; left: 0px; width: 100%; padding: 4px; background: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 200, 20)), to(rgb(210, 160, 0))); border-bottom: 1px solid rgb(180, 130, 0); -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);} 
+.headertext {color: rgb(50, 50, 50); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); float: left; font-size: 24px; line-height: 42px; margin-left: 10px; }
+.left66percent {width: 100%;} 
+.right33percent {width: 100%;}
+.right {float: none;}
+.booktitle {font-size: 16px; font-weight: bold; text-shadow: none; color: rgb(50, 50, 50)}
+.bookauthor {color: rgb(80, 80, 80)}
+.list {width: 100%; border: none; background: none;}
+.connectdiv {background-color: rgb(150, 150, 150); border: 1px solid rgb(100, 100, 100);} 
+.status1 {background-color: red;}
+.status2 {background-color: orange;}
+.status3 {background-color: yellow;}
+.status4 {background-color: green;}
+.currentselection {background-color: rgb(0, 200, 0); background-image: url("../images/shine.png"); border-color: rgb(0, 100, 0);}
+.currentselection a {color: rgb(255, 255, 255);}
+.contentblocktitle {color: rgb(50, 50, 50); border-bottom: 1px solid rgb(220, 220, 220); font-weight: normal; padding-left: 5px;line-height: 20px;}
+.dropshadow {-webkit-box-shadow: none; -moz-box-shadow: none}
+.contentcontainer {background: none;}
+.mainbuttons {position: fixed; bottom: 0px; left: 0px; width: 100%; height: 46px; padding: 4px; float: left;  background: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 200, 20)), to(rgb(210, 160, 0))); border-top: 1px solid rgb(180, 130, 0); -webkit-box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);} 
+.category {background-color: rgb(230, 230, 230); background-image: url("../images/shine.png"); color: rgb(50, 50, 50); font-weight: normal; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+.noimage {display: none;}
+.portrait {width: 95%; float: left; margin-bottom: 5px; border: 1px solid rgb(100, 100, 100); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.printview .mainbuttons {background: none;}
+.checklistCheckBox {background-color: rgb(255, 255, 255); border-color: rgb(200, 200, 200); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; width: 24px; height: 24px;}
+.checkmark {margin-top: -20px; margin-left: 1px;}
+.overviewitem {color: rgb(50, 50, 50)}
+.overviewitem img {border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border: none; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+.unknownperson {height: 80px; line-height: 80px; background: none; border: 1px solid rgb(240, 240, 240); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+.listcategory {background: none; background-image: none;}
+a.button {margin: 0px 2px 2px 0px; float: left; border-color: rgb(0, 100, 0); border-width: 1px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; font-size: 18px; height: 20px; line-height: 20px; color: white; padding: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); background: -webkit-gradient(linear, left top, left bottom, from(rgb(100, 200, 100)), to(rgb(0, 100, 0)));}
+a.button:hover {}
+a.button:active {margin: 2px 0px 0px 2px; -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);}
+.rowgray {background-color: rgb(220, 220, 220);}
+.fieldrightcol {width: 90px;}
+.fieldwide {width: 95%;}
+a.mainmenubutton {margin-top: 6px;}
+.extramenubuttons {float: right;}
+.printview {float: left; width: 525px; border: 1px solid rgb(220, 220, 220); background-color: rgb(240, 240, 240); border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;}
+.fieldnarrow {width: 95%;}
+.fieldrightcol {width: 95%;}
+.buttonup, .buttondown {background-position: 50% 50%; width: 20px;}
+.gendermale, .genderfemale {font-size: 24px;}
+.imageicon {width: 40px; height: 40px; float: left; margin-right: 4px; border: 1px solid rgb(150, 150, 150); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.movediv {width: 85px;} 
+.buttonup {float: left; margin-right: 2px; }
+.buttondown{float: left;}
+.rowgray {background: none;}
+.numberofwords {font-size: 14px; text-align: center; margin-top: -20px; color: rgb(180, 180, 180); margin-bottom: 20px;}
+.aligncenter {text-align: left;}

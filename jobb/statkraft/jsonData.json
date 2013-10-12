@@ -1,0 +1,44 @@
+[
+    {
+        "AccumulatedProductionMWhPreviousDay": 8.594283359310495,
+        "AccumulatedProductionMWhPreviousYear": 102.06829167421851,
+        "AccumulatedProductionMWhThisDay": 8.594283359310495,
+        "AvailabilityFactor": 0.9852941176470589,
+        "CapacityFactor": 0.004181183523276383,
+        "DataQualityIndicator": 1,
+        "MWhisWorthInEuro": 39.19,
+        "Name": "Småla",
+        "NumberOfHouseholdsSupplyNow": 4571.427318782178,
+        "TimeStampInUtc": "/Date(1381311600000+0200)/",
+        "TotalProductionMWNow": 0.000628850001900768,
+        "WindSpeed10MinuteAverageMeterPerSecond": 6.21316662828127
+    },
+    {
+        "AccumulatedProductionMWhPreviousDay": 31.256805544694203,
+        "AccumulatedProductionMWhPreviousYear": 94.84651667140838,
+        "AccumulatedProductionMWhThisDay": 31.256805544694203,
+        "AvailabilityFactor": 0.9583333333333334,
+        "CapacityFactor": 0.04143266906772826,
+        "DataQualityIndicator": 1,
+        "MWhisWorthInEuro": 39.19,
+        "Name": "Hitra",
+        "NumberOfHouseholdsSupplyNow": 16625.96039611394,
+        "TimeStampInUtc": "/Date(1381311600000+0200)/",
+        "TotalProductionMWNow": 0.0022870833325386,
+        "WindSpeed10MinuteAverageMeterPerSecond": 3.39800000588099
+    },
+    {
+        "AccumulatedProductionMWhPreviousDay": 26.024066580699504,
+        "AccumulatedProductionMWhPreviousYear": 203.21068332791324,
+        "AccumulatedProductionMWhThisDay": 26.024066580699504,
+        "AvailabilityFactor": 1,
+        "CapacityFactor": 0.06543642590067766,
+        "DataQualityIndicator": 1,
+        "MWhisWorthInEuro": 39.19,
+        "Name": "Kjällefjord",
+        "NumberOfHouseholdsSupplyNow": 13842.588606755056,
+        "TimeStampInUtc": "/Date(1381311600000+0200)/",
+        "TotalProductionMWNow": 0.00190419999370972,
+        "WindSpeed10MinuteAverageMeterPerSecond": 3.28449999411901
+    }
+]

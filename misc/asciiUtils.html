@@ -1,0 +1,187 @@
+<html>
+	<head>
+		<title>ASCII Character Checker</title>
+		<link rel="stylesheet" type="text/css" media="all" href="style.css">
+		
+		<style type="text/css">
+			#result {padding: 10px; border-radius: 5px; border: 1px solid rgb(100, 100, 100); box-shadow: inset 1px 1px 10px 0px rgba(0, 0, 0, 0.30);}
+			.nonAscii {background-color: rgb(255, 50, 50);}
+			.fail {color: red; font-size: 24px;}
+			.ok {color: rgb(0, 200, 0); font-size: 24px;}
+		</style>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+			function highlightNonAscii()
+			{
+				var textToCheck 		= document.testForm.textToCheck.value;
+				var modifiedText		= "";
+				var currentChar 		= "";
+				errorHasOccured 		= false;
+				var isFirstError		= true;
+
+				textToCheck				= htmlEncode(textToCheck);
+
+				for (i = 0; i < textToCheck.length; i ++)
+				{
+					currentChar = textToCheck.charAt(i);
+
+					if (charIsOk(currentChar))
+					{
+						modifiedText += currentChar;
+					}
+					else
+					{
+						errorHasOccured = true;
+						charCode = currentChar.charCodeAt(0)
+
+						if (isFirstError)
+						{
+							modifiedText += "<a name=\"error\"></a>";
+							isFirstError = false;
+						}
+
+						modifiedText += "<span class=\"nonAscii\" title=\"" + charCode + "\">" + currentChar + "</span>";
+					}
+				}
+
+				if (errorHasOccured)
+				{
+					$("#result").css("backgroundColor", "rgb(255, 150, 150");
+					$("#resultLabel").html("<span class='fail'>FAILED! - The text contained non standard characters.</span>");
+				}
+				else
+				{
+					$("#result").css("backgroundColor", "rgb(150, 255, 150");
+					$("#resultLabel").html("<span class='ok'>OK! - The text contained only standard ASCII characters.</span>");
+				}
+
+
+				$("#result").html(modifiedText);
+				$("#resultDiv").slideDown();
+			}
+
+			function charIsOk(aString)
+			{
+				var charCode = aString.charCodeAt(0);
+				if (charCode >= 32 && charCode <= 255)
+				{
+					return true;
+				}
+				else
+				{
+					return false;
+				}
+			}
+
+			function htmlEncode(aString)
+			{
+				aString = aString.replace("<", "&lt;");
+				aString = aString.replace(">", "&gt;");
+				aString = aString.replace(/\r|\n|\r\n/g, "<br/>");
+				return aString;
+			}
+
+			function clearInputField()
+			{
+				document.testForm.textToCheck.value = "";
+				$("#resultDiv").slideUp();
+				setFocus();
+			}
+
+			function setFocus()
+			{
+				$("#textToCheck").focus();;
+			}
+
+			function typeChar()
+			{
+				var asciiCode = document.charForm.asciiCode.value;
+				var asciiChar = String.fromCharCode(asciiCode);
+				document.charForm.asciiChar.value = asciiChar;
+			}
+
+
+			function displayAscii()
+			{
+				var asciiChar = document.asciiForm.asciiChar.value;
+				var asciiCode = asciiChar.charCodeAt(0);
+				document.asciiForm.asciiCode.value = asciiCode;
+			}
+		</script>
+	</head>
+	<body onload="setFocus()">
+		<a href="index.html" class="backButton">Utils</a>
+		<div class="container">
+			<form name="testForm">
+				<label for="textToCheck">Text to check</label>
+				<textarea id="textToCheck" name="textToCheck" class="inputField fullWidth tallField"></textarea>
+				<br/>
+				<table width="100%">
+					<tr>
+						<td>
+							<input class="clearButton" type="button" onclick="clearInputField();" value="Clear field" />
+						</td>
+						<td>
+							<input type="button" onclick="highlightNonAscii();" value="CHECK" />
+						</td>
+					</tr>
+				</table>
+			</form>
+			<div id="resultDiv" style="display: none;">
+				<label id="resultLabel" for="result">Result</label>
+				<div id="result"></div>
+				<p>
+					<a href="http://www.asciitable.com/" class="center" onclick="this.target='_blank';">ASCII table</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2>ASCII to Character</h2>
+			<div class="center">
+				<form name="charForm">
+					<table>
+						<tr>
+							<td>
+								<label for="asciiCode">ASCII code</label>
+								<input type="text" class="bigInput" name="asciiCode" value=""/>
+							</td>
+							<td valign="bottom">
+								<input class="mybutton" type="button" onclick="typeChar();" value="Convert to CHAR">
+							</td>
+							<td>
+								<label for="asciiChar">Character</label>
+								<input type="text" class="bigInput" name="asciiChar" value=""/>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2>Character to ASCII</h2>
+			<div class="center">
+				<form name="asciiForm">
+					<table>
+						<tr>
+							<td>
+								<label for="asciiChar">Character</label>
+								<input type="text" class="bigInput" name="asciiChar" value=""/>
+							</td>
+							<td valign="bottom">
+								<input class="mybutton" type="button" onclick="displayAscii();" value="Convert to ASCII">
+							</td>
+							<td>
+								<label for="asciiCode">ASCII code</label>
+								<input type="text" class="bigInput" name="asciiCode" value=""/>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

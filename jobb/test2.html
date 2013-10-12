@@ -1,0 +1,51 @@
+<html>
+	<body>
+		<form id="myForm" method="POST" enctype="multipart/form-data" action="https://sns-lyk-1.it.gu.se/vportal/services/upload/multipart">
+			<textarea name="note" style="width: 700px; height: 300px;">
+				<xml-fragment xmlns:vp="http://model.data.core.vportal.cisco.com/vp_ns">
+					<vp:vprequest>						<query>uploadContent</query> 
+					</vp:vprequest>					<vp:vportal> 
+						<vportal_id>1</vportal_id>					</vp:vportal> 
+					<vp:vpcontent>						<title>Har kommer min testfilm</title> 
+						<description>Detta ar en testfilm som laddats upp fran formularet.</description> 
+						<video>							<partname>video1</partname>
+						</video>
+						<contentattribute> 
+							<key>tags</key>							<value>test,johan,plopp</value>							<namespace>com.cisco.vportal.1</namespace> 
+						</contentattribute>					</vp:vpcontent> 
+				</xml-fragment>
+			</textarea>
+			<br/>
+			
+			<input id="otherField" type="file" name="video1" tabindex="-1" /><br/>
+			<input id="myButton" type="submit" value="Ladda upp" />		</form>
+		
+		<form id="approveForm" method="POST" enctype="multipart/form-data" action="https://sns-lyk-1.it.gu.se/vportal/services/upload/multipart">
+			<textarea name="note" style="width: 700px; height: 300px;">
+				<xml-fragment xmlns:vp="http://model.data.core.vportal.cisco.com/vp_ns">					<vp:vportal>
+						<vportal_id>1</vportal_id>					</vp:vportal> 
+					<vp:vprequest>						<query>changeContentState</query> 
+					</vp:vprequest>					<vp:vpcontent> 
+						<id>							<ccsid>____CONTENT_ID_____</ccsid>						</id> 
+						<state>							<contentstate>APPROVED</contentstate> 
+						</state>					</vp:vpcontent>
+				</xml-fragment>
+			</textarea>
+			<br/>
+			<input id="myButton" type="submit" value="Approve" />		</form>
+		
+		<form id="publishForm" method="POST" enctype="multipart/form-data" action="https://sns-lyk-1.it.gu.se/vportal/services/upload/multipart">
+			<textarea name="note" style="width: 700px; height: 300px;">
+				<xml-fragment xmlns:vp="http://model.data.core.vportal.cisco.com/vp_ns">					<vp:vportal> 
+						<vportal_id>1</vportal_id>					</vp:vportal> 
+					<vp:vprequest>						<query>deploy</query> 
+					</vp:vprequest>					<vp:vpcontent> 
+						<id>							<ccsid>____CONTENT_ID____</ccsid>						</id> 
+					</vp:vpcontent>					<vp:vpdeployRequest> 
+						<immediate>true</immediate>					</vp:vpdeployRequest> 
+				</xml-fragment>
+			</textarea>
+			<br/>
+			<input id="myButton" type="submit" value="Publish" />		</form>
+	</body>
+</html>

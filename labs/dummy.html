@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<style type="text/css">
+			ul {list-style-type: none; padding: 0 0 0 20px;}
+			li {line-height: 27px;}
+			ul li ul {display: none;}
+			li span {padding: 2px 5px; border: 1px solid rgb(100, 100, 100); border-radius: 5px; cursor: pointer;}
+			li span:hover {box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);}
+			li.book span {background-color: rgb(220, 220, 220);}
+			li.chapter span {background-color: rgb(230, 230, 230);}
+			li.scene span {background-color: rgb(230, 230, 250);}
+			li.image span {background-color: rgb(220, 255, 220);}
+			
+			.expander {display: block; width: 5px; height: 5px; text-align: center; border: 1px solid rgb(200, 200, 200); border-radius: 10px; font-size: 10px;}
+			a.add {background-color: rgb(240, 240, 240); border-color: rgb(200, 200, 200); color: rgb(150, 150, 150); padding: 1px 5px; border-radius: 10px;}
+			a.remove {background-color: rgb(255, 220, 220); border-color: rgb(200, 200, 200); color: rgb(150, 150, 150); padding: 1px 5px; border-radius: 10px;}
+			a.link {background-color: rgb(240, 240, 240); border-color: rgb(200, 200, 200); color: rgb(150, 150, 150); padding: 1px 10px; border-radius: 10px;}
+			
+			.linked {color: red;}
+		</style>
+		<script type="text/javascript" src="http://dahlgren.tv/johan/cms/javascript/jquery-latest.pack.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$(".expander").click(function(event) {
+					event.stopPropagation();
+					$(this).siblings("ul").toggle();
+					if ($(this).html() == "+")
+					{
+						$(this).html("-");
+					}
+					else
+					{
+						$(this).html("+");
+					}
+				});
+				/*
+				$("li").bind("contextmenu", function(event) {
+					event.stopPropagation();
+					alert("H&ouml;gerklick p&aring;: " + $(this).attr("data-id"));
+					return false;
+				});
+				*/
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<ul>
+				<li class="book">
+					<span class="expander">+</span>
+					<span>Bok 1</span>
+					<a class="add">+</a><a class="link">&lt;</a>
+					<ul>
+						<li class="chapter" data-id="123456" data-title="Kapitel 1">
+							<span class="expander">+</span>
+							<span>Kapitel 1</span>
+							<a class="add">+</a><a class="remove">-</a><a class="link">&lt;</a>
+							<ul>
+								<li class="scene"><span class="expander">+</span><span>Scen 1</span><a class="add">+</a><a class="link">&lt;</a></li>
+								<li class="scene"><span class="expander">+</span><span>Scen 2</span><a class="add">+</a><a class="link">&lt;</a></li>
+							</ul>
+						</li>
+						<li class="chapter" data-id="54325" data-title="Kapitel 2">
+							<span class="expander">+</span>
+							<span>Kapitel 2</span>
+							<a class="add">+</a><a class="link">&lt;</a>
+							<ul>
+								<li class="scene"><span class="expander">+</span><span>Scen 1</span><a class="add">+</a><a class="link">&lt;</a></li>
+								<li class="scene linked"><span class="expander">+</span><span>Scen 2</span></li>
+								<li class="scene"><span class="expander">+</span><span>Scen 3</span><a class="add">+</a><a class="link">&lt;</a>
+									<ul>
+										<li class="image linked"><span>Bild 1</span></li>
+										<li class="image linked"><span>Bild 2</span></li>
+										<li class="image"><span>Bild 3</span><a class="add">+</a><a class="link">&lt;</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="book">
+					<span class="expander">+</span>
+					<span>Bok 2</span><a class="add">+</a><a class="link">&lt;</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

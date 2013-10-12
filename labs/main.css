@@ -1,0 +1,25 @@
+* {font-family: arial; font-size: 12px;}
+#treeContainer {min-width: 200px; margin: 100px auto; border: 3px solid rgb(220, 220, 220); display: table; padding: 30px; border-radius: 10px; background-color: rgb(250, 250, 250); box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), inset 0 0 50px rgba(70, 70, 70, 0.1);}
+#tree {display: none; margin: 0; padding: 0;}
+#editDiv {display: none; position: absolute; width: 500px; height: 300px; background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 20px; overflow: hidden;}
+ul {list-style-type: none; padding: 0 0 0 20px; clear: both;}
+li {line-height: 25px; clear: both; float: left; width: 100%;}
+ul li ul {display: none;}
+li .nodeName {margin-left: 5px; cursor: pointer; float: left; background-position: left center; background-repeat: no-repeat; font-size: 18px; color: rgb(150, 150, 150); text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);}
+li .nodeName:hover {text-decoration: underline;}
+.expander {width: 16px; height: 24px; display: inline-block; cursor: pointer; float: left; background-position: center; background-repeat: no-repeat;}
+a.remove {border: 1px solid rgb(200, 200, 200); color: rgb(150, 150, 150); padding: 1px 5px; border-radius: 4px;}
+a.link {border: 1px solid rgb(200, 200, 200); color: rgb(150, 150, 150); padding: 1px 10px; border-radius: 4px;}
+#editButtons {display: none; position: absolute; padding: 10px 5px; border-radius: 4px; background-color: rgba(0, 0, 0, 0.5);}
+.editButton {background-color: rgb(50, 50, 50); width: 32px; height: 35px; line-height: 35px; text-align: center; display: block; font-size: 32px; border: 1px solid rgb(0, 0, 0); color: rgb(150, 150, 150); padding: 1px 5px; border-radius: 4px; cursor: pointer; float: left; margin: 0 5px;}
+.editButton:hover {background-color: rgb(70, 70, 70);}
+select.editButton {width: auto; font-size: 14px; height: 38px;}
+.linked {color: red;}
+
+.book span.nodeName {background-image: url("images/book.gif");}
+.chapter span.nodeName {background-image: url("images/chapter.gif");}
+.image span.nodeName {background-image: url("images/image.gif");}
+
+.open {background-image: url("images/open.gif");}
+.closed {background-image: url("images/closed.gif");}
+.loading {background-image: url("images/loading_animation.gif");}

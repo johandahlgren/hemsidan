@@ -1,0 +1,158 @@
+* {font-family: arial; font-size: 14px;}
+body {background: none; background-color: rgb(120, 120, 120); margin: 0px; padding: 0px}
+a {text-decoration: none; color: rgb(220, 220, 220); text-decoration: none;}
+p {margin: 0px 0px 5px 0px; padding: 0px; text-indent: 25px;}
+table.listtable {border-collapse: collapse; width: 100%;}
+table.listtable th {border: none; padding: 2px; background-color: rgb(200, 200, 200); text-align: left; font-weight: normal;}
+table.listtable td {padding: 2px 0px 2px 5px; white-space: nowrap; line-height: 24px;}
+table.listtable tr {border-bottom: 1px solid rgb(200, 200, 200);}
+table.listtable tr:last-child {border: none;}  
+h2 {margin: 0px; padding: 0px; font-size: 14px; font-weight: bold; }
+fieldset {border: none; margin: 0px; padding: 0px;}
+input[type="text"], input[type="password"], textarea, select {padding: 5px; float: left; margin: 2px 0px 10px 0px;}
+input[type="submit"] {color: rgb(50, 50, 50); display: block; float: right; line-height: 16px; background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(120, 185, 80); padding: 2px 10px 2px 10px; border: 1px solid rgb(40, 145, 0); text-align: center; margin: 2px 10px;}
+#head {}
+#top {display: block; height: 59px; width: 1194px;}
+#mainMenu {height: 32px; background-color: rgb(150, 150, 150); background-image: url("images/shine.png"); background-repeat: repeat-x; }
+#tabsContainer {display: block; width: 100%; line-height: 24px;}
+#tabsContainer a.tab {float: left; padding: 4px 8px 0px 8px;}
+#tabsContainer a.tab:hover {}
+#tabsContainer a.selected  {position: relative; z-index: 5010;}
+#tabsContainer a.selected:hover {}
+#mainDiv { padding: 10px; min-height: 500px; width: 1200px;}
+#mainIFrame{width: 100%; border: none;}
+#leftMenu {float: left; display: block; margin-right: 20px; width: 260px;} 
+#maincontent {border: 1px solid rgb(120, 120, 120); background-color: rgb(150, 150, 150); float: left; display: block; margin-right: 20px; width: 640px;}
+#maincontent h1, .list h1 {font-size: 20px; font-weight: bold; color: rgb(100, 100, 100); border-bottom: 1px solid rgb(100, 100, 100); margin: 0px 0px 20px 0px; padding: 2px; text-align: center;}
+#rightcontent {float: left; display: block; width: 250px;}
+#locationMap {width: 560px; height: 260px; border: 1px solid rgb(120, 185, 80); float: left;}
+#timelineDiv {position: absolute; background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(220, 220, 220); display: block; width: 200px; border: 1px solid rgb(180, 180, 180); padding: 5px; }
+#infoDiv {margin: 50px auto 0px auto; display: block; width: 230px; height: 100px; text-align: center; color: white;  background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(120, 185, 80); border: 1px solid rgb(40, 145, 0); padding: 10px;}
+#infoDivError {margin: 50px auto 0px auto; display: block; width: 230px; height: 100px; text-align: center; color: white; background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(180, 40, 40); border: 1px solid rgb(100, 0, 0); padding: 10px;}
+#messageDiv {width: 240px; height: 14px; float: left; margin-left: 50px; margin-top: 8px; z-index: 5006; background-color: rgb(127, 127, 127); border: 1px solid rgb(200, 200, 200); display: block;}
+#statusMarker {background-image: url("images/shine.png"); background-position: top left; background-repeat: repeat-x; text-align: center; display: none; margin-top: 0px; width: 240px; height: 14px; line-height: 14px;}
+#ajaxLoadingAnimation{display: none; float: left; margin-left: 110px; margin-right: 10px; margin-top: -2px; }
+#bookInfo {}
+.itemPreviewImageLink {display: none;}
+.itemPreviewImageLink img {display: none;}
+.mainbuttons {clear: both; height: 26px; padding: 2px; border-top: 1px solid rgb(100, 100, 100);} 
+.mainbuttons a.deletebutton {display: block; width: 16px; height: 16px; background-image: url("images/icon_delete.png"); float: right; margin-right: 16px; margin-top: 4px;}
+.mainbuttons a.writingstudiobutton {display: block; width: 16px; height: 16px; background-image: url("images/icon_writing.png"); float: right; margin-right: 16px; margin-top: 4px;}
+.login {margin-top: 100px;}
+.left66percent {width: 66%; float: left;}
+.right33percent {width: 33%; float: right;}
+.connectdiv {position: absolute;}
+.fieldname {display: block; clear: both; font-size: 16px; margin-top: 5px;}
+.block {display: block; clear: both; line-height: 20px;}
+.fieldwide {width: 600px;}
+.fieldnarrow {width: 380px;}
+.fieldtiny {width: 50px;}
+.fieldrightcol {width: 190px; clear: both;}
+.fieldhigh {height: 180px;}
+.fieldlow {height: 100px;}
+.clear {display: block; clear: both; float: left; width: 100%;}
+.center {display: table; margin-left: auto; margin-right: auto;}
+.left {float: left; margin-right: 5px;}
+.right {float: right; margin-left: 5px;}
+.alignright {text-align: right;}
+.alignleft {text-align: left;}
+.aligncenter {text-align: center;} 
+.fullwidth {width: 100%;}
+.list {background-color: rgb(150, 150, 150); float: left; display: block; width: 100%; border: 1px solid rgb(100, 100, 100); padding: 0px; margin-bottom: 20px;}
+.padding {padding: 5px;}
+.paddingtop {padding-top: 8px; }
+.paddingright {padding-right: 5px; }
+.smallimage {height: 30px; width: 30px; overflow: hidden; border: 1px solid rgb(120, 185, 80); vertical-align: middle; margin-bottom: 5px;}
+.portrait {width: 200px; border: 1px solid rgb(100, 100, 100); clear: both; float: right;}
+a.blocklink {line-height: 24px;}
+a.delete {color: red; font-size: 10px; font-weight: bold;}
+a.button {color: rgb(50, 50, 50); display: block; float: right; height: 16px; line-height: 16px; background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(120, 185, 80); padding: 2px 10px 2px 10px; border: 1px solid rgb(40, 145, 0); text-align: center; margin: 2px 10px;}
+.checklistCheckBox {width: 32px; height: 32px; border: 1px solid rgb(100, 100, 100); background-color: rgb(200, 200, 200);}
+.checkmark {width: 42px; height: 42px; margin-top: -15px; margin-left: 0px;}
+.status1 {background-color: red;}
+.status2 {background-color: orange;}
+.status3 {background-color: yellow;}
+.status4 {background-color: green;}
+.currentselection {background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(120, 185, 80); border-color: rgb(40, 145, 0);}
+.currentselection a {color: rgb(50, 50, 50);}
+.topleft {position: fixed; top: 20px; left: 20px;}
+.topright {position: fixed; top: 20px; right: 20px;}
+.bottomleft {position: fixed; bottom: 20px; left: 20px;}
+.bottomright {position: fixed; bottom: 20px; right: 20px;}
+.ontop {z-index: 10000;}
+.bigbutton {width: 120px; height: 80px; background-position: top; background-repeat: repeat-x; line-height: 80px; font-size: 20px; float: left; display: block; margin-top: 2px; margin-left: 10px; background-color: rgb(150, 150, 150); background-image: url("images/shine.png"); color: white; border: 1px solid rgb(40, 105, 0); padding: 4px 10px 4px 10px; text-align: center;}
+.bigbutton:hover {background-color: rgb(150, 150, 150)}
+.contentblocktitle {border-bottom: 1px solid rgb(100, 100, 100); padding: 2px; text-align: center; font-size: 16px; font-weight: normal; line-height: 28px; color: rgb(50, 50, 50);}
+.label {color: rgb(0, 0, 0); font-weight: bold; clear: both; display: block;}
+.info {color: rgb(150, 150, 150);} 
+.contentcontainer {display: table; width: 100%;}
+table.timelineTable {border-collapse: collapse; margin: 5px; padding: 5px; border: none;}
+table.timelineTable tr td {border: none; vertical-align: top; width: 180px;}
+table.timelineTable tr th {background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(180, 180, 180); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border: 0px solid rgb(180, 255, 180); padding: 5px; text-align: center;}
+table.timelineTable tr td.timelineitem {background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(180, 255, 180); display: block; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border: 0px solid rgb(180, 255, 180); padding: 5px;}
+table.timelineTable tr td.emptytimelineitem {text-align: center; background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(240, 240, 240);}  
+table.timelineTable tr td.notimelineitem {text-align: center; background-image: url("images/line.png"); background-position: center; background-repeat: repeat-y; display: block;} 
+.timelinetoolbox {margin-left: auto; margin-right: auto; display: block; width: 60px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border: 0px solid rgb(150, 150, 150); padding: 10px;}
+table.timelineTable tr.chapterdivider td {border-top: 1px solid red;} 
+.buttonup {display: block; width: 16px; height: 10px; background-image: url("images/icon_up.png"); background-position: top center; background-repeat: no-repeat;} 
+.buttondown {display: block; width: 16px; height: 10px; background-image: url("images/icon_down.png"); background-position: bottom center; background-repeat: no-repeat;}
+.buttonedit {display: block; float: left; width: 16px; height: 16px; margin: 2px; background-image: url("images/icon_new.png"); background-position: top left; background-repeat: no-repeat;}
+#displayDiv {display: none;}
+#dialogContainer {background-color: white; border: 1px solid rgb(100, 100, 100); padding: 0px;}
+#dialogContent {background: none; padding: 0px; width: 500px; height: 240px; border: none; }
+.writingstudiobody {background: none; }
+#writingStudio {width: 650px; margin: 20px auto 20px auto;}
+#writingStudio * {font-size: 16px;}
+#writingStudio .mainbuttons {margin-top: 20px; display: block; width: 100%; border: none;}
+#writingStudio #title {float: left; font-size: 24px; font-weight: bold; padding: 5px 20px 5px 20px; width: 440px; border: none; }
+#writingStudio #wordCountField {font-size: 24px; font-weight: bold; padding: 5px 20px 5px 20px; text-align: center; float: left; margin-left: 20px; width: 100px; border: none;}
+#writingStudio textarea {background: none; width: 600px; height: 500px; padding: 20px; margin-top: 10px; clear: both; border: none; }
+#writingStudio  .currentselection {background: none;}
+#writingStudio  .currentselection a.blocklink {color: rgb(255, 255, 255); font-weight: bold; opacity: 0.6;}
+#writingStudio .backgroundplate {background-color: rgb(240, 240, 240);}
+#synonym {width: 140px; margin-left: 10px;} 
+.printview  * {font-size: 16px;}
+.printview {display: block; width: 600px; margin-left: auto; margin-right: auto;}
+.page {display: block; width: 540px; float: left; margin-bottom: 40px; padding: 20px 40px 20px 40px; background-color: rgb(255, 255, 255); }
+.printview h1 {font-size: 32px; font-weight: normal; text-align: center; margin: 0px 0px 20px 0px; padding: 0px;}
+.printview h2 {font-size: 14px; font-weight: normal; text-align: center; border-bottom: 1px solid rgb(200, 200, 200)}
+.printview img {width: 150px; border: 1px solid rgb(150, 150, 150);}
+.pagenumber {clear: both; border-top: 1px solid rgb(150, 150, 150); text-align: center; padding-top: 10px; margin-top: 40px; margin-bottom: 20px;}
+.pagebreak {display: block; float: left; background-color: rgb(200, 200, 200); height: 40px; width: 100%; }
+.printview hr {margin-top: 40px; margin-bottom: 60px; width: 50%; }
+.printview p {padding: 0px 10px 0px 10px; text-align: justify; margin-bottom: 10px;}
+.printviewsynopsis {display: block; width: 240px; float: left; margin-left: 10px; padding: 10px 10px 10px 10px; background-color: rgb(255, 255, 255); }
+.standalonelist {margin-top: 50px;}
+.error {color: red; font-weight: bold;}
+.rowgray{background-color: rgb(180, 180, 180);}
+.rowred {background-color: rgb(255, 180, 180);}
+.rowgreen {background-color: rgb(180, 255, 180);}
+.rowblue {background-color: rgb(180, 180, 255);}
+.overviewdiv {max-width: 1000px; margin-left: auto; margin-right: auto; display: block; }
+.overviewitem {margin: 0px 20px 20px 0px; float: left; color: rgb(240, 240, 240);}
+.overviewitem img {height: 80px; }
+a.overviewbutton {color: rgb(50, 50, 50); display: block; width: 70px; height: 70px; line-height: 80px; background-image: url("images/shine.png"); background-repeat: repeat-x; background-color: rgb(120, 185, 80); padding: 2px 10px 2px 10px; border: 1px solid rgb(40, 145, 0); text-align: center; margin: 2px 10px;}
+.gendermale {color: rgb(50, 50, 200);}
+.genderfemale {color: rgb(255, 50, 50); }
+.dropshadow {-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
+.horizontalspacer {display: block; width: 44px; height: 16px; float: left; }
+.verticalspacer {height: 16px; display: block; clear: both;}
+.category {clear: both; color: white; background-color: rgb(50, 50, 50); margin: 0px 0px 20px 0px; padding: 5px 10px 5px 10px; }
+.listcategory {background-color: rgb(100, 100, 100); background-image: url("images/dark_gradient.png"); background-repeat: repeat-x;}
+.fixed {position: fixed; top: 94px; left: 30px; }
+.logo {display: none; width: 32px; height: 32px; float: left; margin: 5px 20px 5px 5px; background-image: url("images/sandwich.png"); background-repeat: no-repeat;}
+.booktitle {line-height: 32px; font-size: 24px; float: left; margin-left: 20px; margin-right: 10px;color: rgb(255, 255, 255); text-shadow: rgb(50, 50, 50) 2px 2px 7px;}
+.bookauthor {float: left; line-height: 32px; font-size: 16px; margin-right: 20px; color: rgb(50, 50, 50); }
+.loggedininfo {float: right; line-height: 32px; margin-right: 20px; }
+.print {width: 600px; background-color: white; margin-left: auto; margin-right: auto; display: block; padding: 20px; }
+.print h1 {text-align: center; font-size: 16px; font-weight: normal; }
+input[type="text"].writingareatitle {background-image: none; background-color: white; width: 100%; text-align: center; font-size: 32px; padding: 0px; border: 1px solid rgb(230, 230, 230);}
+.writingarea {background-image: none; background-color: white; width: 480px; height: 450px; border: 1px solid rgb(230, 230, 230);}
+.writingareasynopsis {background-image: none; background-color: white; width: 230px; height: 450px; border: 1px solid rgb(230, 230, 230);}
+.page .mainbuttons {border-top: none;}
+.unknownperson {display: block; width: 80px; height: 72px; font-size: 44px; font-weight: bold; text-align: center; line-height: 72px; background-repeat: no-repeat; background-color: rgb(160, 160, 160); color: rgb(220, 220, 220); border: 4px solid rgb(200, 200, 200); }
+.listdiv {display: table;}
+.imageicon {background-image: url("images/image_icon.gif"); background-repeat: no-repeat; display: block; width: 16px; height: 16px; }
+.infoicon {background-image: url("images/icon_info.png"); background-repeat: no-repeat; display: block; width: 16px; height: 16px; border: none;}
+.noimage {width: 200px; height: 100px; clear: both; float: right; background-color: rgb(100, 100, 100); }
+.bold {font-weight: bold;}

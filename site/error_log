@@ -1,0 +1,7 @@
+[15-Mar-2013 14:30:57] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/dahlgren/public_html/dahlgren.tv/johan/site/timeline.php on line 19
+[15-Mar-2013 14:31:47] PHP Warning:  include_once(cms/core.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/timeline.php on line 2
+[15-Mar-2013 14:31:47] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'cms/core.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/dahlgren.tv/johan/site/timeline.php on line 2
+[15-Mar-2013 14:31:47] PHP Fatal error:  Call to undefined function getEntities() in /home/dahlgren/public_html/dahlgren.tv/johan/site/timeline.php on line 5
+[15-Mar-2013 14:31:56] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 106
+[15-Mar-2013 14:42:59] PHP Fatal error:  Call to undefined function getConfigProperty() in /home/dahlgren/public_html/dahlgren.tv/johan/site/timeline.php on line 38
+[15-Mar-2013 14:43:17] PHP Fatal error:  Call to undefined function dbGetMultipleRows() in /home/dahlgren/public_html/dahlgren.tv/johan/site/timeline.php on line 39

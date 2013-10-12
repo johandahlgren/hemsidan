@@ -1,0 +1,12 @@
+[19-Feb-2011 15:35:15] PHP Warning:  include_once(utilityMethods.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/johan/book/read/read.php on line 4
+[19-Feb-2011 15:35:15] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'utilityMethods.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/johan/book/read/read.php on line 4
+[19-Feb-2011 15:35:15] PHP Fatal error:  Call to undefined function  getvaluefromstring() in /home/dahlgren/public_html/johan/book/read/read.php on line 18
+[19-Feb-2011 17:15:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/dahlgren/public_html/johan/book/read/read.php on line 15
+[19-Feb-2011 17:15:30] PHP Parse error:  syntax error, unexpected T_STRING in /home/dahlgren/public_html/johan/book/read/read.php on line 15
+[19-Feb-2011 22:47:26] PHP Warning:  Missing argument 8 for renderList(), called in /home/dahlgren/public_html/johan/book/read/read.php on line 25 and defined in /home/dahlgren/public_html/johan/book/utilityMethods.php on line 851
+[19-Feb-2011 22:47:26] PHP Warning:  Missing argument 8 for renderList(), called in /home/dahlgren/public_html/johan/book/read/read.php on line 26 and defined in /home/dahlgren/public_html/johan/book/utilityMethods.php on line 851
+[19-Feb-2011 22:47:26] PHP Warning:  Missing argument 8 for renderList(), called in /home/dahlgren/public_html/johan/book/read/read.php on line 27 and defined in /home/dahlgren/public_html/johan/book/utilityMethods.php on line 851
+[19-Feb-2011 22:47:26] PHP Warning:  Missing argument 8 for renderList(), called in /home/dahlgren/public_html/johan/book/read/read.php on line 28 and defined in /home/dahlgren/public_html/johan/book/utilityMethods.php on line 851
+[19-Feb-2011 22:47:26] PHP Warning:  Missing argument 8 for renderList(), called in /home/dahlgren/public_html/johan/book/read/read.php on line 29 and defined in /home/dahlgren/public_html/johan/book/utilityMethods.php on line 851
+[19-Feb-2011 22:55:55] PHP Parse error:  syntax error, unexpected '=' in /home/dahlgren/public_html/johan/book/utilityMethods.php on line 329
+[19-Feb-2011 22:56:15] PHP Parse error:  syntax error, unexpected '=' in /home/dahlgren/public_html/johan/book/utilityMethods.php on line 329

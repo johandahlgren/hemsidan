@@ -1,0 +1,134 @@
+﻿
+body {font: 62.5% arial, helvetica, verdana, sans-serif;padding: 0;margin: 0 auto;}
+#wrapper {width:100%;border-top: solid 5px #107445;background:url(../img/header-tile3-bg.gif) bottom repeat-x;margin:0;padding:0;}
+h1 {font-size:2.4em;font-weight:normal;margin:0;padding:0; color:#fff; margin-bottom:15px;}
+h2 {font-size:2.1em;font-weight:normal;margin:0;padding:0;}
+h3 {}
+p {font-size:1.4em;line-height:1.4em;color:#333;margin:0; text-indent:20px;}
+
+                          /******************* TOPPEN ***************************/
+
+#header {width:1100px;height:9em;margin:auto;}
+.logo a{float:left; margin-bottom:38px; padding-top:10px; border:none; background:url(../img/logo-landscaping.png) left bottom no-repeat; width:233px; height:17px;}
+.toppIcons {height:3em;width:500px;float:right;}
+.toppIcons ul  {list-style-type:none;padding:0;margin:0;float:right;clear:both;}
+.toppIcons ul li {float: left;}
+.toppIcons ul li a{color:#5c5c5c;display: block;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:1.4em;}
+.english {background:url(../img/english-flag.gif) left no-repeat;padding-left:2.4em;padding-top:1em;}
+.sitemap {background:url(../img/sitemap-icon.gif) left no-repeat;padding-left:2.8em;padding-top:1em;}
+.logIn {display:block;background:url(../img/login-icon.gif) left no-repeat;padding-left:2.8em;padding-top:1em;}
+
+                       				 /****  TOPPMENY NIVÅ 1  ****/
+
+#menucontainer {width:1100px;height:2.5em;margin-bottom:-1px;}
+#menucontainer ul {list-style-type:none;padding:0;margin:0;clear:both;}
+#menucontainer ul li {float: left;}
+#menucontainer ul li a {color:#333;padding: 0.4em 0.9em 0.2em 1.1em;display: block;border-left:0.1em solid #cbcbcb;margin-bottom:0.1em;text-decoration:none;font-size:1.4em;}
+#menucontainer ul li a:hover{text-decoration:underline; color:#107445;}
+#menucontainer ul li a.selected {background:url(../img/marked-link-bg.gif) repeat-x;text-decoration:none;border-bottom:solid 1px #fff;color:#107445;}
+.searchField {float:right;display:block;}
+.topSearch {float:left;font-size:1.2em;color:333;border:solid 1px #ccc;margin-top:0.2em;}
+.searchbutton{width:3.5em;border:none;background:url(../img/search-button.gif) no-repeat left;font-size:1.1em;height:2em;margin-left:0.4em;cursor:pointer;}
+
+                          /******************* INNEHÅLL ***************************/
+						  
+#container {margin:auto;width:1100px;margin-top:3.5em;}
+
+
+                          /******************* LEFT COLUMN ***************************/
+
+#leftCol {display:block;float:left;width:260px;margin-right:40px;}
+#leftCol h1 {background:url(../img/bg-green-260px-wide.png) left center no-repeat;padding:2px 0 0 6px;height:32px;}
+#leftCol .nyhet {display:block;margin:10px 0 10px 0;}
+#leftCol .nyhet span {font-size:1.2em;color:#777;}
+#leftCol .nyhet p {color:#333;}
+#leftCol .nyhet a, #leftCol a.arkiv, #rightCol a.arkiv {color:#005184;font-weight:bold;text-decoration:none;}
+#leftCol .nyhet a:hover, #leftCol a.arkiv:hover, #rightCol a.arkiv:hover {text-decoration:underline;}
+#leftCol .nyhet a.pil, #leftCol .pil, #rightCol .pil {font-size:1.3em;color:#005184;}#leftCol .nyhet a.pil:hover {text-decoration:none;}
+
+#leftCol .leftmenu, #leftCol .leftmenu ul li {list-style-type:none;padding:0;margin:0 0 0 7px; font-size:16px; line-height:24px;}
+#leftCol .leftmenu ul li  { margin-left:-15px;font-size:14px;}
+#leftCol .leftmenu a { color:#005184; text-decoration:none; padding: 2px 2px 2px 2px;}
+#leftCol .leftmenu a:hover {text-decoration:underline!important;}
+#leftCol .leftmenu .selected {font-weight:bold; background:#e6e6e6;}
+#leftCol .leftmenu .more { background:#e6e6e6 url(../img/more-arrow.png) right center no-repeat; padding-right:20px;}
+
+
+                         /******************* CENTER COLUMN ***************************/
+
+
+#centerCol {float:left;width:500px;}
+#centerCol h1 {background:url(../img/bg-brown-500px-wide.png) left center no-repeat; padding:2px 0 0 6px; height:32px;}
+#centerCol h2,#centerCol-wide h2 { color:#005184;}
+#centerCol p, #centerCol-wide p { margin-bottom:15px; line-height:21px;}
+#centerCol .puff { display:block; border-bottom: solid 4px #e5edf2; width:490px; margin:10px 0 10px 0; padding-bottom:10px;}
+#centerCol .puff img.imgleft, #centerCol .puff img.imgright { border:solid 1px #cccccc;}
+#centerCol .puff img.imgleft {float:left;padding:1px;margin:3px 6px 1px 0;}
+#centerCol .puff img.imgright {float:right;padding:1px;margin:3px 0 1px 6px;}
+p.leadin{font-weight:bold;}
+.breadcrumb { margin:-24px 0 9px 0; font-size:12px; color:#777;}
+.breadcrumb a{color:#005184; text-decoration:none;}
+.breadcrumb a:hover{text-decoration:underline;}
+
+#centerCol-wide {float:left;width:800px;}
+#centerCol-wide h1{background:url(../img/bg-brown-800px-wide.png) left center no-repeat;padding:2px 0 0 6px;height:32px;}
+
+div.searchresult { margin:10px 0 15px 0;}
+.searchresult a{font-size:14px; color:#005184; font-weight:bold; text-decoration:none;}
+.searchresult a:hover{text-decoration:underline;}
+#centerCol-wide .searchresult p{ margin-top:0;}
+
+.printField {width:500px;background:#eee;border-top:solid 1px #d2d2d2;border-bottom:solid 1px #d2d2d2;margin:20px 0 10px 0;height:22px;}
+.printField ul{list-style-type:none;margin:0;}
+.printField ul li {float:left;margin-left:20px;}
+.printField ul li a {color:#005184;text-decoration:none;font-size:1.2em;}
+.print {background:url(../img/print.gif) left no-repeat;padding:5px 0 0 20px;}
+.tellaFriend {background:url(../img/tipsa.gif) left no-repeat;padding:5px 0 0 20px;}
+.comment-icon {background:url(../img/comment.gif) left no-repeat;padding:5px 0 0 20px;}
+
+.commentfield {margin:20px 0 10px 0;}
+.commentfield input {width:150px; margin:0 0 10px 0;}
+.commentfield textarea {width:300px;margin:0 0 10px 0;}
+.commentfield label {font-size:1.2em;}
+
+.comment {display:block;margin-top:30px;border-bottom:solid 4px #e5edf2;}
+.comment span {font-size:14px;color:#666;}
+
+
+                          /******************* RIGHT COLUMN ***************************/
+						  
+						  
+#rightCol {float:right;width:260px;} 
+#rightCol a{font-size:14px;color:#666;text-decoration:none;}
+#rightCol ul li a:hover, #rightCol a:hover{text-decoration:underline; color:#005184;}
+#rightCol ul{list-style-type:none;}
+#rightCol h2 {margin-left:5px; color:#444;}
+#rightCol p { margin-top:15px; line-height:21px;}
+#rightCol h1.kalender, #rightCol h1.genvagar, #rightCol h1.viktiga-dokument {padding:2px 0 0 6px; height:32px;}
+#rightCol h1.kalender { background:url(../img/bg-blue-260px-wide.png) left center no-repeat; }
+#rightCol h1.genvagar { background:url(../img/bg-grey-260px-wide.png) left center no-repeat;}
+#rightCol h1.viktiga-dokument { background:url(../img/bg-red-260px-wide.png) left center no-repeat;}
+
+#rightCol ul.kalenderlista,#rightCol ul.genvagarlista,#rightCol ul.viktiga-dokumentlista {padding:0 0 0 5px; margin:5px 0 15px 0;}
+#rightCol ul.kalenderlista li { display:block; clear:both; padding:2px 0;}
+#rightCol ul.kalenderlista span { width:30px; display:block; float:left; font-size:20px; color:#444;}
+#rightCol ul.kalenderlista a { display:block; padding:2px 0 0 0 ;}
+
+#rightCol ul.genvagarlista li {}
+#rightCol ul.genvagarlista span {font-size:16px; color:#005184; margin-right:4px;}
+#rightCol ul.genvagarlista a { display:block; padding:2px 0 0 0 ;}
+
+#rightCol ul.viktiga-dokumentlista li { line-height:20px;}
+#rightCol ul.viktiga-dokumentlista a{ padding-left:20px;}
+#rightCol ul.viktiga-dokumentlista .pdf, .pdf { background:url(../img/icon-pdf.png) left center no-repeat;}
+#rightCol ul.viktiga-dokumentlista .doc, .doc { background:url(../img/icon-word.png) left center no-repeat;}
+#rightCol ul.viktiga-dokumentlista .html, #rightCol ul.viktiga-dokumentlista .htm, .html, .htm { background:url(../img/icon-webb.png) left center no-repeat;}
+#rightCol ul.viktiga-dokumentlista .xls, .xls { background:url(../img/icon-excel.png) left center no-repeat;}
+#rightCol ul.viktiga-dokumentlista .ppt, .ppt { background:url(../img/icon-ppt.png) left center no-repeat;}
+.file {background:url(../img/icon-file.png) left center no-repeat;}
+
+                           /************* FOOTER  *************/
+
+#footer {width:100%;background:url(../img/fotter-tile.gif) top repeat-x;border-top:solid 2px #107445;height:6em;margin-top:2.5em;}
+.footerText { text-align:center;font-size:12px;padding-top:0.4em;color:#757575;}
+.footerText a{text-decoration:none;color:#757575;}

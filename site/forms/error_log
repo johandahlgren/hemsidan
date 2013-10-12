@@ -1,0 +1,87 @@
+[15-Nov-2011 07:57:12] PHP Warning:  parse_ini_file(/site/config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 75
+[15-Nov-2011 07:58:34] PHP Warning:  parse_ini_file(/site/config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 75
+[15-Nov-2011 08:46:25] PHP Warning:  parse_ini_file(/site/config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 81
+[15-Nov-2011 12:51:32] PHP Warning:  parse_ini_file(/site/config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 86
+[15-Nov-2011 12:52:51] PHP Warning:  parse_ini_file(..//site/config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 86
+[15-Nov-2011 12:54:00] PHP Warning:  parse_ini_file(..//site/config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 88
+[15-Nov-2011 22:33:19] PHP Fatal error:  Call to undefined function  getalltags() in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 16
+[15-Nov-2011 22:35:28] PHP Warning:  include_once(core.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 3
+[15-Nov-2011 22:35:28] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'core.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 3
+[15-Nov-2011 22:35:28] PHP Fatal error:  Call to undefined function  getalltags() in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 19
+[15-Nov-2011 22:36:29] PHP Warning:  include_once(core.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 3
+[15-Nov-2011 22:36:29] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'core.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 3
+[15-Nov-2011 22:36:29] PHP Fatal error:  Call to undefined function  getalltags() in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 19
+[20-Nov-2011 13:02:55] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:31:57] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:42:47] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:48:00] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:48:00] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:50:17] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:50:17] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:51:25] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:51:25] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:56:57] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:56:57] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 14:59:20] PHP Warning:  include_once(cms/core.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 4
+[20-Nov-2011 14:59:20] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'cms/core.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 4
+[20-Nov-2011 14:59:20] PHP Fatal error:  Call to undefined function  getconfigproperty() in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 12
+[20-Nov-2011 15:01:45] PHP Warning:  include_once(cms/core.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 4
+[20-Nov-2011 15:01:45] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'cms/core.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 4
+[20-Nov-2011 15:01:45] PHP Fatal error:  Call to undefined function  getconfigproperty() in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 12
+[20-Nov-2011 15:02:46] PHP Warning:  include_once(cms/core.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 3
+[20-Nov-2011 15:02:46] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'cms/core.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 3
+[20-Nov-2011 15:02:46] PHP Fatal error:  Call to undefined function  getconfigproperty() in /home/dahlgren/public_html/dahlgren.tv/johan/site/forms/category_form.php on line 10
+[20-Nov-2011 15:04:54] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 15:04:54] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 111
+[20-Nov-2011 15:06:48] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 15:06:48] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 15:08:12] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:08:12] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 15:08:12] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:08:12] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 15:09:20] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:09:20] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 15:09:20] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:09:20] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 15:22:29] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:22:29] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 118
+[20-Nov-2011 15:22:29] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:22:29] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 118
+[20-Nov-2011 15:23:30] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:23:30] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 119
+[20-Nov-2011 15:23:30] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:23:30] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 119
+[20-Nov-2011 15:24:37] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:24:37] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 15:24:37] Letar efter proeprties på: config.properties
+[20-Nov-2011 15:24:37] PHP Warning:  parse_ini_file(config.properties) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/cms/core.php on line 112
+[20-Nov-2011 18:15:08] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[20-Nov-2011 18:15:08] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[20-Nov-2011 18:15:39] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[20-Nov-2011 18:15:39] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[20-Nov-2011 18:15:43] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[20-Nov-2011 18:15:43] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[13-Dec-2011 22:45:12] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[13-Dec-2011 22:45:12] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[15-Dec-2011 15:53:18] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[15-Dec-2011 15:53:18] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[15-Dec-2011 15:53:30] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[15-Dec-2011 15:53:30] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[08-Oct-2012 21:42:05] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[08-Oct-2012 21:42:05] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[08-Oct-2012 21:42:13] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[08-Oct-2012 21:42:13] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[08-Oct-2012 21:42:44] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[08-Oct-2012 21:42:44] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[22-Nov-2012 18:18:55] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[22-Nov-2012 18:18:55] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[25-Nov-2012 18:41:35] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[25-Nov-2012 18:41:35] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[26-Nov-2012 15:44:25] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[26-Nov-2012 15:44:25] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[18-Feb-2013 18:57:49] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[18-Feb-2013 18:57:49] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[27-Feb-2013 08:43:48] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[27-Feb-2013 08:43:48] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[27-Feb-2013 09:02:52] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties
+[27-Feb-2013 09:02:52] Letar efter proeprties på: /home/dahlgren/public_html/dahlgren.tv/johan/config.properties

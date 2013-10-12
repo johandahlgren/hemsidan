@@ -1,0 +1,82 @@
+[23-Jan-2012 12:09:16] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Delimiter must not be alphanumeric or backslash in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 8
+[23-Jan-2012 12:12:39] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Delimiter must not be alphanumeric or backslash in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 8
+[23-Jan-2012 12:13:28] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Delimiter must not be alphanumeric or backslash in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 8
+[23-Jan-2012 12:13:37] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Delimiter must not be alphanumeric or backslash in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 8
+[23-Jan-2012 12:14:03] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Delimiter must not be alphanumeric or backslash in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 8
+[29-Feb-2012 15:12:43] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: No ending delimiter '*' found in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 42
+[29-Feb-2012 15:13:10] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: No ending delimiter '.' found in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 42
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:06] PHP Warning:  Wrong parameter count for strtoupper() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 18
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:20] PHP Warning:  Wrong parameter count for ucwords() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 26
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:15:26] PHP Warning:  Wrong parameter count for strtolower() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 30
+[29-Feb-2012 15:24:07] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: No ending delimiter '.' found in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:32:50] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: No ending delimiter '^' found in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:33:26] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: No ending delimiter '.' found in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:34:20] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: No ending delimiter '.' found in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:34:27] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Delimiter must not be alphanumeric or backslash in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:35:40] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: No ending delimiter '.' found in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:40:33] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier 'a' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:40:40] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[29-Feb-2012 15:41:13] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:15] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:17] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:18] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:18] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:19] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:19] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:19] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[29-Feb-2012 15:41:19] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier '[' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 51
+[14-Mar-2012 10:10:31] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/dahlgren/public_html/dahlgren.tv/johan/misc/encodingTester.php on line 3
+[14-Mar-2012 10:12:15] PHP Parse error:  syntax error, unexpected '}' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/encodingTester.php on line 46
+[14-Mar-2012 10:12:28] PHP Parse error:  syntax error, unexpected '}' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/encodingTester.php on line 46
+[14-Mar-2012 10:12:31] PHP Parse error:  syntax error, unexpected '}' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/encodingTester.php on line 46
+[14-Mar-2012 10:12:51] PHP Parse error:  syntax error, unexpected '}' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/encodingTester.php on line 46
+[04-Jul-2012 08:54:07] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Unknown modifier ']' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 48
+[04-Jul-2012 09:18:29] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 9
+[04-Jul-2012 09:18:44] PHP Parse error:  syntax error, unexpected T_RETURN in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 12
+[04-Jul-2012 09:27:28] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Compilation failed: nothing to repeat at offset 0 in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[04-Jul-2012 09:27:30] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Compilation failed: nothing to repeat at offset 0 in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 50
+[04-Jul-2012 09:33:58] PHP Parse error:  syntax error, unexpected T_IF in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 8
+[04-Jul-2012 09:34:16] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 7
+[04-Jul-2012 09:34:28] PHP Parse error:  syntax error, unexpected T_GLOBAL, expecting ']' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 31
+[04-Jul-2012 09:34:28] PHP Parse error:  syntax error, unexpected T_GLOBAL, expecting ']' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 31
+[04-Jul-2012 11:12:15] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/dahlgren/public_html/dahlgren.tv/johan/misc/capitalize.php on line 68
+[21-Jan-2013 13:56:55] PHP Parse error:  syntax error, unexpected T_ARRAY, expecting T_STRING or T_VARIABLE or '$' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 4
+[21-Jan-2013 13:58:48] PHP Parse error:  syntax error, unexpected T_ARRAY, expecting T_STRING or T_VARIABLE or '$' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 4
+[21-Jan-2013 13:59:03] PHP Fatal error:  Call to undefined function  length() in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 10
+[21-Jan-2013 15:35:55] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 37
+[21-Jan-2013 15:35:55] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 37
+[21-Jan-2013 15:35:55] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 37
+[21-Jan-2013 15:35:55] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 37
+[21-Jan-2013 15:43:35] PHP Parse error:  syntax error, unexpected ')' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 73
+[21-Jan-2013 16:00:49] PHP Parse error:  syntax error, unexpected '=' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 71
+[21-Jan-2013 16:10:07] PHP Parse error:  syntax error, unexpected '>' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 76
+[22-Jan-2013 08:03:48] PHP Parse error:  syntax error, unexpected ';' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 53
+[22-Jan-2013 08:04:02] PHP Parse error:  syntax error, unexpected $end in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 172
+[22-Jan-2013 08:05:11] PHP Warning:  file_get_contents(testdoc_old.txt) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 105
+[22-Jan-2013 08:05:12] PHP Warning:  file_get_contents(testdoc_old.txt) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 105
+[22-Jan-2013 08:05:12] PHP Warning:  file_get_contents(testdoc_old.txt) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 105
+[22-Jan-2013 08:17:59] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/dahlgren/public_html/dahlgren.tv/johan/misc/webpageTester.php on line 66

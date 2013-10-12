@@ -1,0 +1,91 @@
+* {font-family: arial; font-size: 14px;}
+body {margin: 0px; padding: 0px; background-color: rgb(75, 75, 75);}
+a {color: black; text-decoration: none;}
+a:hover {text-shadow: 0px 0px 10px rgb(200, 200, 200); color: rgb(220, 220, 220);}
+h1 {font-size: 28px; font-weight: normal; margin: 0px; padding: 40px 0px 40px 0px; text-align: center;}
+table tbody tr td {padding: 5px; }
+#indexDiv, #imageDiv {height: 100%; position: absolute; top: 0px; display: none; box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.95); -moz-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.95); background-color: rgb(100, 100, 100); }
+#indexDiv {left: 0px; border-right: 1px solid rgb(50, 50, 50);}
+#indexDiv td {white-space: nowrap;}
+#imageDiv {right: 0px; border-left: 1px solid rgb(50, 50, 50);}
+#loadingLayer {z-index: 100000; position: absolute; left: 0px; top: 0px; display: block; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); background-image: url("images/loadingAnimation2.gif"); background-repeat: no-repeat; background-position: center center;}
+#calculationDiv {width: 400px; display: none;}
+#leftContent {display: table; margin: 20px auto;}
+#pageHeaderLeft {color: rgb(100, 100, 100); border-bottom: 1px solid rgb(150, 150, 150); padding-bottom: 5px; margin-bottom: 20px;}
+#pageHeaderRight {color: rgb(100, 100, 100); text-align: right; border-bottom: 1px solid rgb(150, 150, 150); padding-bottom: 5px; margin-bottom: 20px;}
+#bookCover {border: 1px solid rgb(50, 20, 20); clear: both; display: table; border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; background-color: rgb(100, 50, 50); padding: 16px; -webkit-box-shadow: 0px 0px 50px rgb(0, 0, 0); -moz-box-shadow: 0px 0px 50px rgba(0, 0, 0);}
+#pageContainer {display: table; -webkit-box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.95); -moz-box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.95);}
+#pageLeft {float: left;
+background: -moz-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.25) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.15)), color-stop(25%,rgba(0,0,0,0.1)), color-stop(50%,rgba(0,0,0,0)), color-stop(75%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.25)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 75%,rgba(0,0,0,0.25) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 75%,rgba(0,0,0,0.25) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 75%,rgba(0,0,0,0.25) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#40000000',GradientType=1 );
+background: linear-gradient(left, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 75%,rgba(0,0,0,0.25) 100%);
+background-color: rgb(255, 250, 240);
+abackground-image: url(http://www.parisfleamarkethfc.com/images/paper-background.jpg); 
+border-right: none;
+box-shadow: inset -10px 0px 40px rgba(40, 20, 0, 0.4);}
+#pageRight {float: left;
+background: -moz-linear-gradient(left, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.15) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.25)), color-stop(25%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0)), color-stop(75%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.15)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0.15) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0.15) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0.15) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#26000000',GradientType=1 );
+background: linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0.15) 100%);
+background-color: rgb(255, 250, 240);
+abackground-image: url(http://www.parisfleamarkethfc.com/images/paper-background.jpg);
+border-left: none;
+box-shadow: inset 10px 0px 40px rgba(40, 20, 0, 0.4);
+border-left: 1px solid rgb(110, 110, 110);}
+#page1, #page2 {height: 610px;}
+#previousButton {position: relative; bottom: 0px; left: -55px; background-image: url("images/corner_l.png");}
+#nextButton {position: relative; bottom: 0px; left: 365px; background-image: url("images/corner_r.png");}
+#bookmarkLeft {margin-left: 390px;} 
+#bookmarkMiddle {position: absolute; margin-left: 495px; height: 500px; -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+#bookmarkRight {margin-left: 550px;}
+#footerButtons {margin: 10px 0px 0px 20px;}
+#lastPageButton {float: right;}
+#currentPageNumber {text-align: center; color: rgb(110, 110, 110); text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95); font-size: 20px;}
+#tabLeftOpen {left: 0px;}
+#tabLeftClose {left: 200px;}
+#tabRightOpen {right: 0px;}
+#tabRightClose {right: 200px;}
+#tabRightClose .textDiv {margin-top: 60px;}
+.tab {cursor: pointer; position: absolute; top: 300px; width: 50px; height: 200px; background-color: rgb(100, 100, 100); border-top: 1px solid rgb(50, 50, 50); border-bottom: 1px solid rgb(50, 50, 50);}
+.tabLeft {border-right: 1px solid rgb(50, 50, 50); -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5);}
+.tabLeft .textDiv {margin-top: 100px; display: block; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);}
+.tabRight {border-left: 1px solid rgb(50, 50, 50); -moz-border-radius-topleft: 10px; -moz-border-radius-bottomleft: 10px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5);}
+.tabRight .textDiv {margin-top: 50px; display: block; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg);}
+.page {width: 400px; height: 650px; display: block; padding: 40px 60px 60px 50px; border-radius: 3px; -moz-border-radius: 3px;}
+.page img {margin: 10px; display: block; height: 150px;}
+.center {text-align: center;}
+.divider {margin: 20px auto 20px auto; background-image: url("images/paragraphDivider.png"); width: 44px; height: 22px; display: block; background-repeat: no-repeat; background-positioin: center center;}
+.chapterDivider {margin: 30px auto 30px auto; abackground-image: url("images/chapterDivider.png"); width: 340px; height: 40px; display: block; background-repeat: no-repeat; background-positioin: center center;}
+.itemPreviewImage {float: left; height: 100px; margin-top: 10px; margin-right: 10px; border-radius: 8px; -moz-border-radius: 8px; box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.85); -moz-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.85); line-height: 75px; background-color: rgb(50, 50, 50); color: rgb(100, 100, 100); text-align: center; font-size: 80px; font-weight: bold;}
+.itemPreviewImage:hover {box-shadow: 0px 0px 20px rgba(220, 220, 220, 0.85); -moz-box-shadow: 0px 0px 20px rgba(220, 220, 220, 0.85); }
+.blocklink {display: none;}
+.contentblocktitle {display: none;}
+.smallpadding {display: none;}
+.numberofpages {float: right; color: rgb(150, 150, 150); margin-top: -40px; margin-bottom: 20px;}
+.clear {clear: both;}
+.left {float: left; margin-right: 20px;}
+.right {float: right;}
+.pageButton {width: 100px; height: 100px; display: none; line-height: 40px; text-align: center; cursor: pointer; margin-top: -55px;}
+.pageNumber {font-size: 12px; color: rgb(0, 0, 0); margin: 0px auto; display: table;} 
+.buttons {margin: 0px 0px 10px 20px; display: table;}
+.button {color: rgb(110, 110, 110); text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95); font-size: 20px; display: table; float: left; margin-right: 40px; cursor: pointer;}
+.button:hover {text-shadow: 0px 0px 1px rgba(220, 220, 220, 0.95); color: rgb(200, 200, 200);}
+.closeButton {width: 200px; height: 48px; line-height: 48px; border: 2px outset rgb(100, 100, 100); background-color: rgb(70, 70, 70); font-size: 16px; color: rgb(220, 220, 220); display: block; text-align: center; text-decoration: none; cursor: pointer; color: rgb(220, 220, 220); border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.8); background-color: rgb(100, 100, 100); background: #B2B2B2; /* old browsers */ background: -moz-linear-gradient(top, #B2B2B2 0%, #777777 50%, #686868 53%, #2D2D2D 100%); /* firefox */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B2B2B2), color-stop(50%,#777777), color-stop(53%,#686868), color-stop(100%,#2D2D2D)); /* webkit */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B2B2B2', endColorstr='#2D2D2D',GradientType=0 ); /* ie */}		
+.closeButton:active {border: 2px inset rgb(80, 80, 80); -moz-box-shadow:inset 2px 2px 5px rgba(0, 0, 0, 0.8); -webkit-box-shadow:inset 2px 2px 5px rgba(0, 0, 0, 0.8); box-shadow:inset 2px 2px 5px rgba(0, 0, 0, 0.8); }	
+.closeButton:hover {color: rgb(240, 240, 240); text-shadow: 0px 0px 4px rgb(240, 240, 240);}
+.bookmark {display: none; margin-top: -50px; cursor: pointer; background-color: rgb(90, 90, 90); border-left: 1px solid rgb(40, 40, 40); border-top: 1px solid rgb(0, 50, 0); border-right: 1px solid rgb(0, 50, 0); width: 80px; height: 50px; box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.3); -moz-box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.3); -moz-border-radius-topleft: 4px; border-top-left-radius: 4px; -moz-border-radius-topright: 4px; border-top-right-radius: 4px;}
+.padding {padding: 10px;}
+.wordCount {display: none; color: rgb(50, 50, 50); position: absolute; text-align: center; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);}
+.sideBar {width: 200px;}
+.textDiv {font-size: 32px; color: #505050;}
+.textDiv:hover {color: rgb(220, 220, 220); text-shadow: 0px 0px 4px rgb(200, 200, 200);}
+.indexItem {border-top: 1px solid rgb(120, 120, 120); border-bottom: 1px solid rgb(80, 80, 80); padding: 20px;}
+.indexItem:hover {background-color: rgb(110, 110, 110); text-shadow: 0px 0px 10px rgb(200, 200, 200); color: rgb(220, 220, 220);}

@@ -1,0 +1,201 @@
+<html>	<head>
+		<title>Upload</title>
+		<link rel="stylesheet" type="text/css" media="all" href="SnS.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+		<script src="http://malsup.github.com/jquery.form.js"></script>
+		
+		<script>
+			String.prototype.endsWith = function(str) {
+				return (this.match(str + "$")==str)
+			};
+
+			function setupUpload()
+			{
+				$("#submitButton").hide();
+				$("#progress").show();
+				var oldValue = $("#xmlInput").val();
+				var newValue = oldValue.replace("___TITLE___", $("#localTitle").val());
+				var newValue = newValue.replace("___DESCRIPTION___", $("#localDescription").val());
+				var newValue = newValue.replace("___TAGS___", $("#localTags").val());
+				$("#xmlInput").val(newValue);
+				
+				//------------------------------------------------------------
+				// Remove all fields not used in the submit
+				// This is because SnS will say the XML is invalid otherwise.
+				//------------------------------------------------------------
+				
+				$("#localTitle").remove();
+				$("#localDescription").remove();
+				$("#localTags").remove();
+				
+				console.log($("#xmlInput").val());
+			}
+			
+			function checkFields()
+			{
+				var isOk = true;
+				$("#progress").hide();
+				$(":input").each(function(index){					
+					if ($(this).is("input:text") || $(this).is("textarea") || $(this).is("input:file"))
+					{
+						if ($(this).val() != "")
+						{
+							if (!$(this).is("input:file"))
+							{
+								$(this).addClass("fieldOk");
+							}
+						}
+						else
+						{
+							$(this).removeClass("fieldOk");
+							isOk = false;
+						}
+					}
+				});
+				if (isOk)
+				{
+					$("#submitButton").show();
+				}
+				else
+				{
+					$("#submitButton").hide();
+				}
+			}
+			
+			$(window).load(function () {
+			    function setFile() 
+			    {
+			    	var fileName 	= $("#fileField").val();
+			    	fileName 		= fileName.substring(fileName.lastIndexOf("\\") + 1);
+			    	var image 		= "";
+
+			    	if (fileName != "")
+			    	{
+				    	if (fileName.endsWith(".png") || fileName.endsWith(".jpg") || fileName.endsWith(".jpeg") || fileName.endsWith(".gif"))
+				    	{
+				    		image = "http://icons.iconarchive.com/icons/double-j-design/ravenna-3d/128/Image-icon.png";
+				    	}
+				    	else if (fileName.endsWith(".mp4") || fileName.endsWith(".mpg") || fileName.endsWith(".mov") || fileName.endsWith(".avi"))
+				    	{
+				    		image = "http://icons.iconarchive.com/icons/iconleak/atrous/128/movie-icon.png";
+				    	}
+				    	else 
+				    	{
+				    		image = "http://icons.iconarchive.com/icons/laurent-baumann/creme/128/document-generic-icon.png";
+				    	}
+				    					    	
+				    	$("#fileName").css("background-image", "url(" + image + ")");
+				        $("#fileName").html(fileName);
+				        $("#fileName").addClass("fieldOk");
+			    	}
+			    };
+			    
+			    //------------------------------------------
+			    // Bind event listeners to various elements
+			    //------------------------------------------
+			    
+			    $("#browseButton").live("click", function () {
+			        $("#fileField").click();
+			        $("#bar").removeClass("done");
+					$("#percent").removeClass("done");
+					$("#progress").unbind("click");
+			        $("#progress").hide();
+			        return false;
+			    });
+			    
+			    $("#fileField").bind("change", function() {
+			    	setFile();
+			    });
+			    
+			    $("input, textarea").bind("keyup change", function() {
+			    	checkFields();
+			    });
+			    
+			    /*
+			    $("#uploadForm").submit(function() {
+					setupUpload();
+				});
+				*/
+
+				//-------------------------------------
+			    // Setup the Ajax upload functionality
+			    //-------------------------------------
+
+			    $.ajaxSetup({
+					type	: "POST"
+				});
+			    
+			    var bar 	= $("#bar");
+				var percent = $("#percent");
+				var status 	= $("#status");
+
+				$("#uploadForm").ajaxForm({
+				    beforeSend: function(xhr) {
+				    	$("#bar").removeClass("done");
+				    	checkFields();
+				    	setupUpload();
+				        status.empty();
+				        var percentVal = "0%";
+				        bar.width(percentVal)
+				        percent.html(percentVal);
+				    },
+				    uploadProgress: function(event, position, total, percentComplete) {
+				        var percentVal = percentComplete + "%";
+				        bar.width(percentVal);
+				        percent.html(percentVal);
+				    },
+					complete: function(xhr) {
+						percent.html("St&auml;ng");
+						$("#bar").addClass("done");
+						$("#progress").bind("click", function() {
+							$("#uploadForm").hide();
+						});
+					}
+				}); 
+				
+				 $("#localTitle").focus();
+			});       
+		</script>
+	</head>
+	<body id="iframeBody">
+		<!-- https://sns-lyk-1.it.gu.se/vportal/services/upload/multipart -->
+		<!-- http://www.dahlgren.tv/johan/index.php -->
+		<!-- http://dev.cms.it.gu.se/infoglueDeliverWorking/ViewPage.action?siteNodeId=139458 -->
+				<form id="uploadForm" method="POST" enctype="multipart/form-data" action="http://dev.cms.it.gu.se/infoglueDeliverWorking/ViewPage.action?siteNodeId=139458">
+			<textarea id="xmlInput" name="note">
+				<xml-fragment xmlns:vp="http://model.data.core.vportal.cisco.com/vp_ns">
+					<vp:vprequest>						<query>uploadContent</query> 
+					</vp:vprequest>					<vp:vportal> 
+						<vportal_id>1</vportal_id>					</vp:vportal> 
+					<vp:vpcontent>						<title>___TITLE___</title> 
+						<description>___DESCRIPTION___</description> 
+						<video>							<partname>video1</partname>
+						</video>
+						<contentattribute> 
+							<key>tags</key>							<value>___TAGS___</value>							<namespace>com.cisco.vportal.1</namespace> 
+						</contentattribute>					</vp:vpcontent> 
+				</xml-fragment>
+			</textarea>
+			
+			<label for="title">Titel:</label><input type="text" id="localTitle" value="" name="localTitle" tabindex="1" />
+			<label for="description">Beskrivning:</label><textarea id="localDescription" name="localDescription" tabindex="2"></textarea>
+			<label for="tags">Taggar: <span>(Separerade med kommatecken)</span></label><input type="text" id="localTags" name="localTags" value="" tabindex="3" />
+			<label for="browseDiv">Film:</label>
+			<div id="browseDiv">
+			    <div id="fileName">
+			    	Klicka h&auml;r f&ouml;r att v&auml;lja en fil, eller dra och sl&auml;pp filen h&auml;r.
+			    </div>
+			    <input id="fileField" type="file" name="video1" tabindex="-1" /> 
+			    <!--<input id="browseButton" type="button" value="Bl&auml;ddra" tabindex="4" />-->
+			</div>
+			
+			<div id="progress">
+		        <div id="bar"></div >
+		        <div id="percent">0%</div >
+		    </div>
+		    
+		    <div id="status"></div>
+			
+			<input id="submitButton" type="submit" value="Ladda upp" />		</form>		
+	</body>
+</html>
